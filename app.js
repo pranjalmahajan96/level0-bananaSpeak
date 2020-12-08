@@ -25,7 +25,3 @@ function clickEventHandler()
 };
 
 btnTranslate.addEventListener("click", clickEventHandler)
-
-
-
-
