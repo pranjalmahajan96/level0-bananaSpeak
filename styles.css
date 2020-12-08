@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet');
+
+:root{
+    --primary-color: #7C3AED;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+}
+
+body{
+    font-family: 'Nerko One', cursive;
+    margin: 20px
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/** container **/
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+ /** header **/
+
+ .hero{
+     padding: 1rem;
+ }
+
+ .hero .hero-img{
+     max-width: width 350px;
+     display: block;
+     margin: auto;
+ }
+
+ .hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: black;
+ }
+
+ .hero .hero-heading .heading-inverted{
+     color: var(--primary-color)
+ }
+
+ /** footers**/
+
+ .footer{
+     background-color: var(--primary-color);
+     padding: 2rem 0rem;
+     text-align: center;
+     color: white;
+     border-top-right-radius: 1rem;
+ }
+
+ .footer .link{
+     color: white;
+ }
+
+.footer .ul{
+padding-inline-start: 0px;
+}
+

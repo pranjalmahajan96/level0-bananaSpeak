@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minions speak bananaaaa</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
         textarea{
             width: 80%;
@@ -20,18 +21,38 @@
             margin: 1rem;
             padding: 1rem;
         }
+
+        #btn-translate{
+            font-family: 'Nerko One', cursive;
+        }
+
+  /**   #background{
+            background-image: url(https://image.shutterstock.com/image-vector/seamless-pattern-minion-fresh-banana-260nw-384895669.jpg);
+           /** background-repeat: initial   ; */
+        } */
+
+
+
     </style>
     
 </head>
 <body>
-    <h1>Let's talk like a Minion</h1>
-    <textarea id="txt-input" placeholder="Write in English and let's convert it into banana!"></textarea>
-    <button id="btn-translate">Translate</button>
+<div id="background">   
+<div class="container container-center" >
+    <header class="hero"> 
+        <h1 >Let's talk like a Minion</h1>
 
-    <div style="font-size: larger;">Your Output will come here 👇</div>
+    </header>
+   
+    <textarea id="txt-input" placeholder="Write in English and let's convert it into banana!"></textarea>
+    <button id="btn-translate" >Translate</button>
+
+    <div style="font-size: larger;">Minions speak like 👇</div>
     <div id="output"></div>
 
 
     <script src="app.js" type="text/javascript"></script>
+</div>
+</div>  
 </body>
 </html>
